@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -Wall -Wpedantic -Wextra
-CFILE = main
+CFILE = main-custom-stack
 
 all: $(CFILE).cpp
 	g++ $(CFLAGS) $(CFILE).cpp -o $(CFILE).out
